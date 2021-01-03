@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './List.scss';
+import Hero from '../Hero/Hero.js';
 
 const List = () => (
       <section className={styles.component}>
-        <h2>Things to do</h2>
+        <Hero />
       </section>
 );
 
