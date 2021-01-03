@@ -1,16 +1,10 @@
 import React from 'react';
 import styles from './List.scss';
-import App from '../App.js';
 
-class List extends React.Component {
-  render() {
-    return (
+const List = () => (
       <section className={styles.component}>
-        <h2>Hello world!</h2>
-        <App />
+        <h2>Things to do</h2>
       </section>
-    )
-  }
-}
+);
 
 export default List;
