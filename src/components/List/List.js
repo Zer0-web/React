@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './List.scss';
 import Hero from '../Hero/Hero.js';
 
-const List = () => (
+const List = props => (
       <section className={styles.component}>
-        <Hero titleText='things to do' />
+        <Hero titleText={props.title} />
       </section>
 );
 
