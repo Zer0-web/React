@@ -4,8 +4,9 @@ import Hero from '../Hero/Hero.js';
 
 const List = () => (
       <section className={styles.component}>
-        <Hero />
+        <Hero titleText='things to do' />
       </section>
 );
+
 
 export default List;
