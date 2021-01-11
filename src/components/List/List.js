@@ -23,6 +23,10 @@ class List extends React.Component {
 }
 }
 
+List.propTypes = {
+  name: PropTypes.string
+};
+
 
 export default List;
 

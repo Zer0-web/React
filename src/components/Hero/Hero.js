@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Hero.scss';
+import PropTypes from 'prop-types';
 
 const Hero = props => (
   <header className={styles.component}>
@@ -7,5 +8,8 @@ const Hero = props => (
     <img className={styles.image} src="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png" alt="space ship"></img>
   </header>
 );
+Hero.PropTypes = {
+  titleText: PropTypes.node,
+};
 
 export default Hero;
